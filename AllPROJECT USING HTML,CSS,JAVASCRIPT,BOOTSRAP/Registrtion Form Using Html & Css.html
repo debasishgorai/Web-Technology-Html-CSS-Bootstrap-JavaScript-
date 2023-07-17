@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>8Assignment5</title>
+    <style>
+        body{
+            background: linear-gradient(45deg,rgb(146, 17, 239),purple);
+           margin-bottom: 416px;
+        }
+        fieldset{
+            width: fit-content; 
+            /* border: 1px solid white; */
+            position: relative;
+            left: 500px;
+           top: 150px;
+           background-color: ghostwhite;
+           
+        }
+        #gen2{
+            margin-left: 30px; position: relative; right: 2px;
+        }
+        #gen3{
+           margin-left: 30px; position: relative; right: 2px;
+        }
+        .btn{
+            position: relative; left: 3px;
+            width:100%; 
+            color: white;
+             margin-top: 10px;
+            background: linear-gradient(45deg,rgb(146, 17, 239),purple);
+            border: 1px solid white; padding: 6px;
+        }
+        .abc{
+            position: relative; left: 5px;
+        }
+        #gen1{
+            position: relative; right: 2px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h2>Registration</h2>
+            <table width="100%"  cellsapcinh="10px">
+                <tr>
+                    <td><label for="fn"> <b>FullName</b></label></td>
+                    <td class="abc"><label for="un" > <b>Username</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="fn" placeholder="Enter your name"></td>
+                    <td class="abc"><input type="text" id="un" placeholder="Enter your username"></td>
+                </tr>
+                <tr>
+                    <td><label for="em"><b>Email</b></label></td>
+                    <td class="abc"><label for="pn" ><b>Phone Number</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="em" placeholder="Enter your email"></td>
+                    <td class="abc"><input type="text" id="pn" placeholder="Enter your number"></td>
+                </tr>
+                <tr>
+                    <td><label for="pw"><b>Password</b></label></td>
+                    <td class="abc"><label for="cpw" ><b>Confirm Password</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="pw" placeholder="Enter your password"></td>
+                    <td class="abc"><input type="text" id="cpw" placeholder="Confirm your password"></td>
+                </tr>
+               
+            </table>
+            <div>
+                <label for="gen"><b>Gender</b></label>
+            </div>   
+            <div>
+                <input type="radio" name="gen" id="gen1">Male 
+                  <input type="radio" name="gen" id="gen2">Female 
+                  <input type="radio" name="gen" id="gen3">Prefer not to say                                       
+            </div>
+            <div><button class="btn"><b>Register</b></button1></div>
+        </fieldset>
+    </form>
+</body>
+</html>

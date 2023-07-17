@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> animation1</title>
+    <style >
+        div{
+            height: 100px;
+            width: 100px;
+            background: linear-gradient(green,red);
+            position: relative;
+            animation-name: dev;
+            border-radius: 50%;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+            position: relative;
+        }
+        @keyframes dev{
+            0%{
+                top: 0;
+                left: 0;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }
+            25%{
+                top: 0;
+                left:300px ;
+                transform: rotate(90deg);
+                filter: hue-rotate(90deg);
+            }50%{
+                top: 300px;
+                left:300px ;
+                transform: rotate(180deg);
+                filter: hue-rotate(180deg);
+            }75%{
+                top: 300px;
+                left: 0;
+                transform: rotate(270deg);
+                filter: hue-rotate(270deg);
+            }100%{
+                top: 0;
+                left: 0;
+                transform: rotate(360deg);
+                filter: hue-rotate(360deg);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>8Assignment4</title>
+    <style>
+        body{
+            position: relative;
+            left: 400px;
+        }
+        form{
+            width: fit-content;
+        }
+        fieldset{
+        
+         background-color: rgb(208, 216, 208);
+        }
+        h4{
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+            width: fit-content;
+        }
+        input{
+            padding: 6px;
+            margin: 5px 0px 5px 5px;
+            width: 240px;
+        }
+        label{
+            margin-left: 5px;
+        }
+       
+        #pi{
+            padding-top: 5px; padding-bottom: 20px;
+        }
+        #btn{
+            background-color: darkolivegreen; color: white; 
+            border-radius: 30px; padding: 10px;
+            margin-left: 170px;
+        }
+        #pd{
+            width: 100px;
+        }
+        .abc{
+            position: relative;
+        }
+        #add1{
+            width: 506px;
+        }
+    </style>
+</head>
+<body>    
+   <form action="">
+    <fieldset>
+        <h1>Product Registration Form</h1>
+   <h4> Register your product by filling in the form product registration form below </h4>
+        <table width="100%">
+            <tr>
+                <td><label for="name">Name</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="name" placeholder="first"></td>
+                <td class="abc"><input type="text" id="name" placeholder="last"></td>
+            </tr>
+            <tr>
+                <td><label for="em">Email</label></td>
+                <td class="abc"><label for="num">Phone</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="em" ></td>
+                <td class="abc"><input type="text" id="num" placeholder="123 456 7890"></td>
+            </tr></table>
+            
+                <div ><label for="add">Address</label><div>
+            
+            
+                <div ><input class="add" type="text" id="add1" placeholder="Enter Address"> </div>
+                
+            <table>
+            <tr>
+                <td><input type="text" id="add" placeholder="City"> </td>
+                <td class="abc"><input type="text" id="add" placeholder="State"> </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="add" placeholder="Address/Pincode"> </td>
+                <td class="abc"><input type="text" id="add" placeholder="Country"> </td>
+            </tr>
+            <tr>
+                <td id="pi">PRODUCT INFORMATION</td>
+            </tr>
+            <tr>
+                <td><label for="pn">Product Name</label></td>
+                <td class="abc"><label for="pdm">Product Details & Model</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="pn"></td>
+                <td class="abc"><input type="text" id="pdm"></td>
+            </tr>
+            <tr>
+                <td><label for="pid">Product Model ID</label></td>
+                <td class="abc"><label for="prn">Product 'Registration Name'</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="pid"></td>
+                <td class="abc"><input type="text" id="prn"></td>
+            </tr>
+            <tr>
+                <td><label for="pd">Purchase Date</label></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="pd"></td>
+            </tr>
+        </table>
+        <div><button id="btn">REGISTER PRODUCT</button></div>
+    </fieldset>
+   </form>
+</body>
+</html>

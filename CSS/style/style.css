@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bLACK;
+    text-align: center;
+    border: 2px solid white;
+}
+#main{
+    border: 2px solid whitesmoke;
+    color: ghostwhite;
+    border-radius:250px ;
+    text-shadow: 0 0 15px red ;
+
+}
+#footer{
+    color: ghostwhite;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+button{
+    background: linear-gradient(45deg,lightgreen,lightblue);
+    border-radius: 50px;
+}
+#btn{
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+
+}
+#nav{
+    text-align: center;
+    margin: 10px;
+}
+a{
+
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+a:hover{
+    background: linear-gradient(45deg,lightcoral,orange);
+    border-radius: 50px;
+}
+#content{
+    color: ghostwhite;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    text-shadow: 0 0 15px red;
+}
+#veg_content{
+    color: white;
+    text-align: center;
+    background-color: red;
+    
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+
+}
+#Nv_content{
+    background-color: blue;
+    color: white;
+    text-shadow: 0 0 15px lightgreen;
+}
+#dsrts{
+    background: linear-gradient(45deg,orange,white);
+}
+#btn:hover{
+    background: linear-gradient(45deg,lightgreen,lightblue);
+    color: whitesmoke;
+    text-decoration: none;
+}

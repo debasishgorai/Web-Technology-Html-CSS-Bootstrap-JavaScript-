@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+img{
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 0 45px darkred;
+}

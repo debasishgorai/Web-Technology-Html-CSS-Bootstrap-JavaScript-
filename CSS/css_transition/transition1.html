@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>transition1</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+        #ease:hover{
+            background-color: greenyellow;
+            transform: translateX(400px);
+            transition-duration: 5s;
+            transition-delay: 2s;
+            transition-property: transform 5s;
+            transition-timing-function: ease;
+        }
+        #linear:hover{
+            background-color: red;
+            transform: translateX(400px);
+            transition-duration: 5s;
+            transition-delay: 2s;
+            transition-property: transform 5s;
+            transition-timing-function: linear;
+        }
+        #easein:hover{
+            
+            background-color: purple;
+            transform: translateX(400px);
+            transition-duration: 5s;
+            transition-delay: 2s;
+            transition-property: transform 5s;
+            transition-timing-function: ease-in;
+        }
+        #easeout:hover{
+            
+            background-color: magenta;
+            transform: translateX(400px);
+            transition-duration: 5s;
+            transition-delay: 2s;
+            transition-property: transform 5s;
+            transition-timing-function: ease-out;
+        }
+        #easeinout:hover{
+            
+            background-color: greenyellow;
+            transform: translateX(400px);
+            transition-duration: 5s;
+            transition-delay: 2s;
+            transition-property: transform 5s;
+            transition-timing-function: ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="ease"></div>
+    <div id="linear"></div>
+    <div id="easein"></div>
+    <div id="easeout"></div>
+    <div id="easeinout"></div>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>reversenumber</title>
+</head>
+<body>
+    <script>
+       
+   let num = Number(prompt("enter the 6 digit number"))
+
+       if(num<0){
+           console.log("no negatives");
+       }
+       else{
+           let rev =0;
+           while(num>0){
+               rem= num % 10;
+               rev = rev * 10+rem;
+               num = parseInt(num/10);
+
+           }
+           
+           console.log("reverse is"+rev);
+       }
+       
+   
+   number(num);
+    
+
+    </script>
+</body>
+</html>

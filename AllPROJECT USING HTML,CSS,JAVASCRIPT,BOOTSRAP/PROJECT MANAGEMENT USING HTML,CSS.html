@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>8Assignment1</title>
+    <style>
+        body{
+            text-align: center;
+        }
+       form{
+        background-color: aquamarine;
+        width: fit-content;
+        padding: 10px; text-align: left;
+        position: relative; left: 600px;
+        
+       }
+       h1{
+        text-decoration: underline;
+        padding-left: 22px;
+       }
+       .ip{
+        background-color: lightgreen;
+        border: none; color: white;
+        margin: 10px ; margin-left: 50px;
+        padding: 5px;
+       }
+       .ip1{
+        background-color: blue;
+        border: none; color: white;
+        margin: 10px ;
+        padding: 5px;
+       }
+       input{
+        margin: 10px;
+       }
+       #name,#sd,#ed{
+        box-shadow: 0 0 2px black;
+       }
+       
+    </style>
+<head>
+<body>
+    <h1>Project Management</h1>
+    <form action="">
+        <table>
+           <tr ><td><label for="name">Project Name</label></td>
+            <td><input type="text" id="name" placeholder="project name"></td></tr>
+        
+        
+           <tr><td> <label for="at">Assigned to</label></td>
+            <td><input type="text" id="at" placeholder="Ex Marry Peterson"><select name="" id=""></select></td></tr>
+        
+        
+            <tr><td><label for="sd">Start Date</label></td>
+            <td><input type="datetime-local"  id="sd"></td></tr>
+        
+        
+            <tr><td><label for="dob">End Date</label></td>
+             <td><input type="datetime-local"  id="ed"></td></tr>
+
+        
+            <tr><td><label for="pr">Priority</label>
+                <td><input type="radio"  name="pr">High
+                <input type="radio"  name="pr">Average
+                <input type="radio"  name="pr">Low</td></td></tr>
+
+        
+            <tr><td><label for="des">Description</label></td>
+                <td><textarea name="" id="" cols="30" rows="2" id="des"></textarea></td></tr>
+                
+            </table>
+        <input type="submit" value="Submit" class="ip">
+        <input type="reset" value="Clear" class="ip1">
+    
+    </form>
+</body>
+</html>

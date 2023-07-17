@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>animation</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 150px;
+        }
+        h1{
+            border: 2px double black;
+            width: fit-content;
+            margin-left: 400px;
+        }
+        span{
+            color: greenyellow;
+            animation-name: anime;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+span:nth-child(1){
+    color: brown;
+    animation-delay: 1s;
+    animation-name: anime;
+}
+
+span:nth-child(2){
+    color: blue;
+    animation-delay: 1.2s;
+    animation-name: anime;
+}
+
+span:nth-child(3){
+    color: greenyellow;
+    animation-delay: 1.4s;
+        animation-name: anime;}
+        
+span:nth-child(4){
+    color: green;
+    animation-delay: 1.6s;
+    animation-name: anime;}
+    
+span:nth-child(5){
+    color: red;
+    animation-delay: 1.8s;
+    animation-name: anime;
+    
+}
+    
+    @keyframes anime{
+        from{
+            filter: hue-rotate(0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        to{
+            filter: hue-rotate(360deg);
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+    </style>
+    
+</head>
+<body>
+    <h1>
+        <span>V</span>
+        <span>I</span>
+        <span>J</span>
+        <span>A</span>
+        <span>Y</span>
+    </h1>
+</body>
+</html>

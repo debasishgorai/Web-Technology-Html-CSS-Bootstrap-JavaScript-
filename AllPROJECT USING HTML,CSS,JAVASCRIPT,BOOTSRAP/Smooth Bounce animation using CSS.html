@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> animation1</title>
+    <style >
+        div{
+            height: 100px;
+            width: 100px;
+            background: linear-gradient(green,red);
+            position: relative;
+            animation-name: dev;
+            border-radius: 50%;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+            position: relative;
+        }
+        @keyframes dev{
+            0%{
+                top: 360px;
+                left: 0;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }
+            14.2%{
+                top: 0px;
+                left:240px;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }  28.4%{ top: 360px;
+                left: 240px;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }  42.6%{
+                top: 0px;
+                left:480px;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }  56.8%{
+                top:360px ;
+                left:480px ;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }  71%{
+                top: 0px;
+                left: 720px;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }  85.2%{
+                top: 360px;
+                left: 720px;
+                transform: rotate(0);
+                filter: hue-rotate(0);
+            }100%{
+                top: 0px;
+                left: 960px;
+                transform: rotate(0);
+                        filter: hue-rotate(0);
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+
+</body>
+</html>
